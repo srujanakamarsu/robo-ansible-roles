@@ -1,4 +1,4 @@
 - name: Java Setup
   ansible.builtin.import_role:
     name: common
-    import_tasks: java.yml
+    import_tasks: java
