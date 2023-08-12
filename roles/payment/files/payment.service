@@ -4,11 +4,11 @@ Description=Payment Service
 [Service]
 User=root
 WorkingDirectory=/app
-Environment=CART_HOST=cart-dev.vyshu.online
+Environment=CART_HOST=cart-dev.techmythree.online
 Environment=CART_PORT=8080
-Environment=USER_HOST=user-dev.vyshu.online
+Environment=USER_HOST=user-dev.techmythree.online
 Environment=USER_PORT=8080
-Environment=AMQP_HOST=rabbitmq-dev.vyshu.online
+Environment=AMQP_HOST=rabbitmq-dev.techmythree.online
 Environment=AMQP_USER=roboshop
 Environment=AMQP_PASS=roboshop123
 
